@@ -1,8 +1,8 @@
 {
-  "name": "checkmate",
+  "name": "weird-brains",
   "version": "1.0.0",
-  "description": "Checkmate is a discord bot which will assist SOA Chess Club",
-  "main": "index.js",
+  "description": "Weird brains is an application that will facilitate developers to monitor their progress",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "ascii-table": "^0.0.9",
+    "axios": "^1.3.3",
+    "cheerio": "^1.0.0-rc.12",
     "discord.js": "^14.5.0",
     "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "glob": "^8.0.3",
-    "mongoose": "^6.6.4",
+    "mongoose": "^6.10.0",
     "nodemon": "^2.0.20"
   }
 }
